@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background-color: #ffac40;;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header p {
+    margin: 0.5rem 0 0;
+}
+
+main {
+    padding: 2rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+section h2 {
+    border-bottom: 2px solid #ffac40;;
+    padding-bottom: 1.5rem;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    background: #e2e2e2;
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    margin-top: 5px;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Estilos Responsivos */
+@media (max-width: 768px) {
+    main {
+        padding: 1rem;
+    }
+
+    header {
+        padding: 0.5rem 0;
+    }
+
+    header p {
+        margin: 0.5rem 1rem;
+    }
+
+    section h2 {
+        font-size: 1.2rem;
+    }
+
+    ul li {
+        padding: 0.5rem;
+        font-size: 0.9rem;
+    }
+
+    footer {
+        padding: 0.5rem 0;
+    }
+}
+
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 1.5rem;
+    }
+
+    header p {
+        font-size: 0.9rem;
+    }
+
+    section h2 {
+        font-size: 1rem;
+    }
+
+    ul li {
+        padding: 0.3rem;
+        font-size: 0.8rem;
+    }
+}
